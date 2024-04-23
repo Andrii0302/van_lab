@@ -7,7 +7,7 @@ class Ksiazka {
 private:
     std::string Autor;
     std::string Tytul;
-    ElementBiblioteczny* NrID; // Use a pointer here
+    ElementBiblioteczny* NrID; 
     bool Dostepnosc;
 
     bool CzyDostepna();
